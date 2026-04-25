@@ -10,6 +10,22 @@ The Wardrobe is a fully functional fashion ecommerce platform designed to provid
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home / Product Page
+![Product Page](screenshots/w1.png)
+
+### 🛒 Shopping Cart
+![Cart](screenshots/cart.png)
+
+### 👤 User Dashboard
+![User Dashboard](screenshots/w user dashboard.png)
+
+### 🔧 Admin Dashboard
+![Admin Dashboard](screenshots/admin dashboard.png)
+
+---
+
 ## ✨ Features
 
 ### 🛍️ Customer Side
@@ -114,17 +130,11 @@ the-wardrobe/
 
 ---
 
-## 📸 Screenshots
-
-> Screenshots coming soon
-
----
-
 ## 👨‍💻 Team
 
 This project was built as a group project by:
 
-| Name | 
+| Name |
 |---|
 | Mohamad Safrin |
 | Raveen Sandeepa |
