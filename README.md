@@ -19,10 +19,10 @@ The Wardrobe is a fully functional fashion ecommerce platform designed to provid
 ![Cart](screenshots/cart.png)
 
 ### 👤 User Dashboard
-![User Dashboard](screenshots/w user dashboard.png)
+![User Dashboard](screenshots/user.png)
 
 ### 🔧 Admin Dashboard
-![Admin Dashboard](screenshots/admin dashboard.png)
+![Admin Dashboard](screenshots/admin.png)
 
 ---
 
