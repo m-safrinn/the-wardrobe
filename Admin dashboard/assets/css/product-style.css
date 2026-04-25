@@ -1,0 +1,98 @@
+.product-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-form label {
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form select,
+.product-form input[type="checkbox"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.product-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.product-form #size-checkboxes label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product-form input[type="submit"] {
+    background-color: #20201e;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.product-form input[type="submit"]:hover {
+    background-color: #4e4b43;
+}
+
+.product-form br {
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.alert.success {
+    background-color: #4CAF50;
+}
