@@ -1,0 +1,89 @@
+
+.custom-slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden; 
+}
+
+
+.custom-mySlides {
+    display: none;
+}
+
+
+.custom-mySlides img {
+    width: 100%;
+    height: auto;
+}
+
+.custom-fade {
+    animation-name: custom-fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes custom-fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+.custom-prev, .custom-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 10; 
+}
+
+
+.custom-next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.custom-prev:hover, .custom-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.custom-slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden; 
+}
+
+
+.custom-dot-container {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1000; 
+    top: 650px;
+    transform: translateY(-50%); 
+}
+
+
+.custom-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.custom-active, .custom-dot:hover {
+    background-color: #717171;
+}

@@ -1,0 +1,444 @@
+body {
+    background: #ffffff;
+    font-family: 'Encode Sans Condensed';
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+.navbar-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-custom a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: pointer; 
+}
+
+.navbar-custom .welcome {
+    font-size: 18px; 
+}
+
+
+.navbar-custom .welcome a {
+    color: #000000;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-custom .links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-custom .links a {
+    margin-left: 20px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.main-content .header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.logout-container {
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+.logout-container h3 {
+    margin-bottom: 15px;
+    font-size: 24px; 
+    color: #333; 
+}
+
+.logout-container p {
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    color: #666; 
+}
+
+.logout-container button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    color: #fff; 
+    background-color: #000000; 
+  border-color: #000000;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.logout-container button:hover {
+    background-color: #302f2f;
+    color: #ffffff;
+  
+}
+
+
+/* Container for all orders */
+.order-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+
+.order-container h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.order-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.order-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(25% - 20px); 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+
+.order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
+.order-card p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #555;
+}
+
+
+.order-card p strong {
+    color: #333;
+}
+
+
+.order-container p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #777;
+}
+
+
+
+
+.review-container {
+    margin: 150px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-review {
+    margin-bottom: 20px;
+}
+
+.rating {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    display: inline-block;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.rating label::before {
+    content: "\2605";
+    font-size: 25px;
+}
+
+.rating input[type="radio"]:checked ~ label,
+.rating input[type="radio"]:checked ~ label ~ label {
+    color: #1e306b;
+}
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #3d3d3dd5;
+}
+
+
+
+
+
+
+.account-settings-links .list-group-item {
+    border: none;
+    padding: 10px 15px;
+    background-color: #bebdbd77;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0px;
+}
+
+.account-settings-links .list-group-item:hover {
+    background-color: #e0e0e0;
+}
+
+.account-settings-links .list-group-item.active {
+    background-color: #525252;
+    color: #fff;
+}
+
+
+
+
+.form-group {
+    margin-bottom: 15px;
+    margin-right: 150px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+ 
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Container for the buttons */
+.sub-button {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; 
+    margin-top: 20px; 
+    margin-right: 170px;
+}
+
+button.custom-btn, button.subcustom-btn {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button.custom-btn {
+    background-color: #333; 
+    color: #fff; 
+}
+
+button.custom-btn:hover {
+    background-color: #555; 
+}
+
+
+button.subcustom-btn {
+    background-color: #e0e0e0; 
+    color: #333; 
+}
+
+button.subcustom-btn:hover {
+    background-color: #c0c0c0; 
+}
+
+
+
+
+
+
+/* footer band  */
+.band-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; 
+  
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px; 
+}
+
+.whatsapp, .van, .cod {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.whatsapp p, .van p, .cod p {
+text-decoration:solid ;
+    margin: 20px; 
+    font-size: 14px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer div {
+    flex: 1;
+    margin: 0 10px;
+    max-width: 200px;
+}
+
+.footer .brand h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.footer .brand p {
+    font-size: 14px;
+    color: #555;
+}
+
+.footer h3,
+.socials h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer .info ul,
+.footer .socials ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer .info ul li,
+.footer .socials ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer .info ul li img,
+.footer .socials ul li img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px; 
+}
+
+.footer .info ul li a,
+.footer .socials ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.footer .info ul li a:hover,
+.footer .socials ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}

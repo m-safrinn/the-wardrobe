@@ -1,0 +1,163 @@
+
+/* about us */
+.container-about{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 17%;
+}
+
+header{
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+ul li strong {
+    color: #333;
+}
+
+/* contact us */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 0;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+
+/* size */
+
+
+
+
+.container-size {
+    margin-top: 15%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+ 
+}
+
+section-size{
+    margin: 20px 0;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.size-guide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+    margin: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+} 

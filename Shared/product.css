@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.product-details {
+    margin-top: 160px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-info {
+    flex: 1;
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-images {
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start; 
+    width: 50%;
+}
+
+.main-image {
+    width: 90%; 
+    height: 550px;
+    margin-right: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden; 
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: top; 
+}
+
+.thumbnail-images {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+    width: 80px; 
+}
+
+.thumbnail-images img {
+    width: 100%; 
+    height: auto;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumbnail-images img:hover {
+    border-color: #000;
+}
+
+.product-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.product-info p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.product-info .price {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.sale-label {
+    background-color: rgb(177, 42, 67);
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.size-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.size-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.size-button.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.sizing-guide {
+    display: inline-block;
+    margin-left: 300px;
+    text-decoration: none;
+    color: #000;
+}
+
+.quantity-selection {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+    
+}
+
+.quantity-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    
+}
+
+.quantity {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+
+}
+
+.add-to-cart {
+    padding: 15px 20px;
+    border: 1px solid #000;
+    background-color: #ffffff;
+    color: #000;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    transition: background-color 0.3s ease; 
+}
+
+.add-to-cart:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.tab-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reviews-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+
+    border-radius: 5px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.reviews-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.reviews-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.review-item {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid #a09f9f;
+    border-radius: 5px;
+}
+
+.review-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.stars {
+    color: #14223f;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.user-email {
+    font-weight: bold;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.review-date {
+    font-size: 14px;
+    color: #888;
+}
+
+.review-right {
+    flex: 22;
+    margin-left: 50px;
+}
+
+
+.review-comment {
+    margin-right: 10;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
